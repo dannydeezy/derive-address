@@ -18,7 +18,9 @@ npm i
 
 Now create an Access Token for your user using the BitGo website.
 Login and navigate to User Settings -> Developer Options -> Add Access token
+
 Be sure to whitelist your IP address and only give permissions that you want it to have
+
 Copy the access token and set it as an environment variable in your terminal:
 ```aidl
 export BITGO_ACCESS_TOKEN=v2x915thisisafakeaccesstokena1161bb1d160571asdfasdfb9fc0d204ec
