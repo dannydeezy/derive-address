@@ -48,6 +48,8 @@ BitGo derives addresses using the following derivation scheme:
 
 ```chain``` must be one of ```0, 1, 10, 11, 20, or 21```
 
+```index``` can be any number, but BitGo increments this number with each new address. It starts at ```0``` then increases by ```1``` with each new address generated
+
 Even numbers are used for receive addresses, while odd numbers are used for change addresses.
 
 ```0 and 1``` are regular P2SH addresses
