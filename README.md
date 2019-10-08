@@ -28,6 +28,8 @@ export BITGO_ACCESS_TOKEN=v2x915thisisafakeaccesstokena1161bb1d160571asdfasdfb9f
 
 Then find your wallet ID in your wallet settings, this will be the ```--wallet``` parameter below.
 
+You'll also need to set the ```--coin```, ```--chain```, ```--index```, and ```--env``` parameters, as shown below.
+
 To run the script on testnet:
 ```aidl
 node derive-address.js --wallet 5c6c46e6425581ee2438fde7c3e0509b --coin tbtc --chain 10 --index 0 --env test
