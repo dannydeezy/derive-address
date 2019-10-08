@@ -1,0 +1,16 @@
+{
+  "name": "derive-address",
+  "version": "1.0.0",
+  "description": "",
+  "main": "derive-address.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitgo": "^8.2.2",
+    "bitgo-utxo-lib": "^1.6.0",
+    "yargs": "^14.2.0"
+  }
+}
