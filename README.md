@@ -59,3 +59,5 @@ Even numbers are used for receive addresses, while odd numbers are used for chan
 ```20 and 21``` are P2WSH (native segwit) addresses
 
 Each of the 3 xpubs is derived with the above derivation path, and the script is constructed from the resulting 3 pubkeys.
+
+In the multisig script, the keys appear in the following order: User Key, Backup Key, BitGo Key
