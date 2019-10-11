@@ -1,4 +1,4 @@
-This script shows you how to manually generate BitGo Multi-Sig address.
+This script shows you how to manually generate BitGo Multi-Sig addresses.
 
 # WARNING: This is for educational purposes only. 
 BitGo requires creating addresses with the ```api/v2/{coin}/wallet/{id}/address``` API endpoint (https://www.bitgo.com/api/v2/#operation/v2.wallet.newaddress) or the ```wallet.createAddress``` function in the SDK.
